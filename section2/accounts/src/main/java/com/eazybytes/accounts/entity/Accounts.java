@@ -12,6 +12,7 @@ import org.hibernate.annotations.GenericGenerator;
 public class Accounts extends BaseEntity {
     @Column(name = "customer_id")
     private Long customerId;
+
     @Column(name = "account_number")
     @Id
     private Long accountNumber;
